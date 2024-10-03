@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1{
+    color: #eff1f3;
+    text-align: center;
+    font-size: 2.5em;
+}
+ h2 {
+    color: #03101d;
+    text-align: center;
+    font-size: 2.5em;
+}
+p{
+    color: #eff1f3;
+    text-align: center;
+    font-size: 1.9em;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Home Section */
+    #home {
+        background: 
+            /* Fallback for browsers that do not support background image */
+            #74a0b9 
+            url('Screenshot (204).png') 
+            no-repeat center center;
+        background-size:cover; /* Ensure the image covers the whole section */
+        color: #fff;
+        padding: 100px 0;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        height: 60%;
+    }
+
+
+.profile-img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+h1 span {
+    color: #e4e6eb;
+    font-size:2.rem;
+}
+h3{
+    color: #03101d;
+    text-align: center;
+    font-size: 1.9em;
+}
+.skills {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: #071844;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* About Me Section */
+#about {
+    padding: 50px 0;
+}
+
+#about p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-size: medium;
+    font-style:oblique;
+    color: #010510;
+}
